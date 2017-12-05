@@ -1,4 +1,4 @@
-/*MCP204 interfacing with AT89c51 using spi bus
+/*MCP3204 interfacing with AT89c51 using spi bus
 
    ******* Display the voltage values at 3 channels of MCP204*****
 	 */
