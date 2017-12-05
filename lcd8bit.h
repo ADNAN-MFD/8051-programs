@@ -39,10 +39,18 @@ void lcd_string(char *s)
 	
 }
 
-void lcd_integer(unsigned char n)
+void lcd_integer(int n)
 {
-	lcd_data(n/10+48);
-	lcd_data(n%10+48);
+	
+	sprintf(buf,"%d",n);
+	lcd_string(buf);
+}
+
+void lcd_float(float n)
+{
+	
+	sprintf(buf,"%.1f",n);
+	lcd_string(buf);
 }
 
 void lcd_hex(unsigned char n)
