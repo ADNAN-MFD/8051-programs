@@ -1,3 +1,6 @@
+/*DS1307 RTC interfacing with AT89c51 using i2c Protocol(Bit Banging Method)
+*********************Clock with time and date*********************
+*/
 #include <reg51.h>
 #include <stdio.h>
 #include "delay_ms.h"
