@@ -24,6 +24,7 @@ void main()
 			lcd_hex(i);
 			lcd_string("Found");
 			count++;
+			delay_ms(1000);
 		}
 		if(i>=254)
 			break;
