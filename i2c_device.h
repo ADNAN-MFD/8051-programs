@@ -39,4 +39,5 @@ unsigned char i2c_detect(unsigned char addr)
 	flag=i2c_cack();
 	i2c_stop();
 	delay_ms(10);
+	
 }
