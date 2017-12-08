@@ -2,7 +2,7 @@ sfr LCD_PORT=0x80;
 sbit RS=P3^4;
 sbit RW=P3^5;
 sbit EN=P3^6;
-char buf[10]:
+char buf[10];
 void lcd_cmd(unsigned char c)
 {
 	LCD_PORT=c;
