@@ -1,4 +1,5 @@
-sfr LCD_PORT=0x80;
+#include <stdio.h>
+sfrLCD_PORT=0x80;
 sbit RS=P3^4;
 sbit RW=P3^5;
 sbit EN=P3^6;
