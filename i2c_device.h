@@ -73,7 +73,7 @@ void i2c_device_mread(unsigned char addr,unsigned char mry,unsigned char *_data,
 	_data[i]=i2c_read();
 	for(i=1;i<n;i++)
 	{
-		i2c_dack();
+		i2c_dack();//acknowledge from slave to master
 	_data[i]=i2c_read();
 	}
 	i2c_nack();
